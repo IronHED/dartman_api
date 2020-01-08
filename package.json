@@ -1,0 +1,35 @@
+{
+  "name": "dartman_api",
+  "version": "1.0.0",
+  "description": "Dartman backend API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server",
+    "production": "NODE_ENV=Production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronHED/dartman_api.git"
+  },
+  "keywords": [
+    "Darts",
+    "Game",
+    "Bullseye",
+    "Bullzeye"
+  ],
+  "author": "Peter McQuillan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IronHED/dartman_api/issues"
+  },
+  "homepage": "https://github.com/IronHED/dartman_api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
